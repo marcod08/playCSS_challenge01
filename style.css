@@ -1,0 +1,71 @@
+body {
+    background-color: #020402;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#greencircle {
+    width: 600px;
+    height: 600px;
+    background-color: #c5efcb;
+    border-radius: 50%;
+}
+
+.blackcircle {
+    background-color: #020402;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    border-radius: 50%;
+}
+
+#topleft {
+    left: 10%;
+}
+
+#topright {
+    left:70%;
+    top: -20%;
+}
+
+#bottomleft {
+    left: 10%;
+    bottom: -40%;
+}
+
+#bottomright {
+    left: 70%;
+    bottom: -20%;
+}
+
+.blacksquare {
+    transform: rotate(45deg);
+    background-color: #020402;
+    position: relative;
+}
+
+#bigsquare {
+    width: 40%;
+    height: 40%;
+    bottom: 60%;
+    left: 30%;
+}
+
+#mediumsquare {
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    bottom: 78%;
+}
+
+#smallsquare {
+    width: 20%;
+    height: 20%;
+    left: 40%;
+    bottom: 88%;
+}
